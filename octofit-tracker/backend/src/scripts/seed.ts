@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { connectDatabase, disconnectDatabase } from '../database.js';
+import { connectDatabase, disconnectDatabase } from '../config/database.js';
 import { Activity } from '../models/activity.js';
 import { LeaderboardEntry } from '../models/leaderboardEntry.js';
 import { Team } from '../models/team.js';
